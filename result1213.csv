@@ -1,0 +1,26 @@
+                      OLS Regression Results                     
+Dep. Variable:   ,iOS             ,  R-squared:         ,   0.735
+Model:           ,OLS             ,  Adj. R-squared:    ,   0.723
+Method:          ,Least Squares   ,  F-statistic:       ,   64.92
+Date:            ,Tue, 13 Dec 2022,  Prob (F-statistic):,4.87e-44
+Time:            ,00:05:19        ,  Log-Likelihood:    , -591.75
+No. Observations:,   172          ,  AIC:               ,   1200.
+Df Residuals:    ,   164          ,  BIC:               ,   1225.
+Df Model:        ,     7          ,                     ,        
+Covariance Type: ,nonrobust       ,                     ,        
+             ,   coef   , std err ,    t    ,P>|t| ,  [0.025 ,  0.975] 
+Intercept    ,  -28.5673,    4.965,   -5.753, 0.000,  -38.372,  -18.763
+percapita_log,    9.9904,    1.395,    7.163, 0.000,    7.236,   12.745
+OSX          ,    0.6943,    0.096,    7.247, 0.000,    0.505,    0.884
+island       ,    1.4491,    1.361,    1.065, 0.289,   -1.238,    4.136
+LangCount    ,   -0.5013,    0.400,   -1.254, 0.212,   -1.291,    0.288
+EthnicCount  ,    0.2895,    0.375,    0.773, 0.441,   -0.450,    1.029
+ReliCount    ,   -0.9480,    0.442,   -2.143, 0.034,   -1.821,   -0.075
+NonReli      ,    0.1997,    0.052,    3.864, 0.000,    0.098,    0.302
+Omnibus:      ,18.376,  Durbin-Watson:     ,   1.951
+Prob(Omnibus):, 0.000,  Jarque-Bera (JB):  ,  22.615
+Skew:         , 0.703,  Prob(JB):          ,1.23e-05
+Kurtosis:     , 4.087,  Cond. No.          ,    178.
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
