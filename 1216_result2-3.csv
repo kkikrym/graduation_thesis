@@ -1,0 +1,24 @@
+                      OLS Regression Results                     
+Dep. Variable:   ,Android         ,  R-squared:         ,   0.513
+Model:           ,OLS             ,  Adj. R-squared:    ,   0.501
+Method:          ,Least Squares   ,  F-statistic:       ,   42.54
+Date:            ,Sun, 18 Dec 2022,  Prob (F-statistic):,8.18e-30
+Time:            ,01:48:55        ,  Log-Likelihood:    , -770.93
+No. Observations:,   208          ,  AIC:               ,   1554.
+Df Residuals:    ,   202          ,  BIC:               ,   1574.
+Df Model:        ,     5          ,                     ,        
+Covariance Type: ,nonrobust       ,                     ,        
+             ,   coef   , std err ,    t    ,P>|t| ,  [0.025 ,  0.975] 
+Intercept    ,  138.5293,    4.954,   27.962, 0.000,  128.761,  148.298
+percapita_log,  -15.4471,    1.154,  -13.384, 0.000,  -17.723,  -13.171
+island       ,   -2.7868,    1.576,   -1.769, 0.078,   -5.893,    0.320
+LangCount    ,    0.8547,    0.469,    1.823, 0.070,   -0.070,    1.779
+EthnicCount  ,   -0.6967,    0.418,   -1.666, 0.097,   -1.521,    0.128
+ReliCount    ,    0.3722,    0.520,    0.716, 0.475,   -0.653,    1.398
+Omnibus:      ,18.612,  Durbin-Watson:     ,   1.944
+Prob(Omnibus):, 0.000,  Jarque-Bera (JB):  ,  20.889
+Skew:         ,-0.755,  Prob(JB):          ,2.91e-05
+Kurtosis:     , 3.362,  Cond. No.          ,    43.1
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
