@@ -2,8 +2,8 @@
 Dep. Variable:   ,share_square    ,  R-squared:         ,   0.293
 Model:           ,OLS             ,  Adj. R-squared:    ,   0.276
 Method:          ,Least Squares   ,  F-statistic:       ,   16.78
-Date:            ,Sun, 18 Dec 2022,  Prob (F-statistic):,7.48e-14
-Time:            ,01:49:11        ,  Log-Likelihood:    , -931.62
+Date:            ,Mon, 19 Dec 2022,  Prob (F-statistic):,7.48e-14
+Time:            ,13:48:35        ,  Log-Likelihood:    , -931.62
 No. Observations:,   208          ,  AIC:               ,   1875.
 Df Residuals:    ,   202          ,  BIC:               ,   1895.
 Df Model:        ,     5          ,                     ,        

@@ -2,8 +2,8 @@
 Dep. Variable:   ,Windows         ,  R-squared:         ,   0.336
 Model:           ,OLS             ,  Adj. R-squared:    ,   0.320
 Method:          ,Least Squares   ,  F-statistic:       ,   20.44
-Date:            ,Sun, 18 Dec 2022,  Prob (F-statistic):,1.71e-16
-Time:            ,01:49:03        ,  Log-Likelihood:    , -699.40
+Date:            ,Mon, 19 Dec 2022,  Prob (F-statistic):,1.71e-16
+Time:            ,13:48:25        ,  Log-Likelihood:    , -699.40
 No. Observations:,   208          ,  AIC:               ,   1411.
 Df Residuals:    ,   202          ,  BIC:               ,   1431.
 Df Model:        ,     5          ,                     ,        

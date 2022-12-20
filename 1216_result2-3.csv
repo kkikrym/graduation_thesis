@@ -2,8 +2,8 @@
 Dep. Variable:   ,Android         ,  R-squared:         ,   0.513
 Model:           ,OLS             ,  Adj. R-squared:    ,   0.501
 Method:          ,Least Squares   ,  F-statistic:       ,   42.54
-Date:            ,Sun, 18 Dec 2022,  Prob (F-statistic):,8.18e-30
-Time:            ,01:48:55        ,  Log-Likelihood:    , -770.93
+Date:            ,Mon, 19 Dec 2022,  Prob (F-statistic):,8.18e-30
+Time:            ,13:48:19        ,  Log-Likelihood:    , -770.93
 No. Observations:,   208          ,  AIC:               ,   1554.
 Df Residuals:    ,   202          ,  BIC:               ,   1574.
 Df Model:        ,     5          ,                     ,        

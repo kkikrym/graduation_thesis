@@ -1,26 +1,24 @@
                       OLS Regression Results                     
-Dep. Variable:   ,iOS             ,  R-squared:         ,   0.710
-Model:           ,OLS             ,  Adj. R-squared:    ,   0.700
-Method:          ,Least Squares   ,  F-statistic:       ,   69.96
-Date:            ,Sun, 18 Dec 2022,  Prob (F-statistic):,2.31e-50
-Time:            ,01:48:21        ,  Log-Likelihood:    , -725.88
-No. Observations:,   208          ,  AIC:               ,   1468.
-Df Residuals:    ,   200          ,  BIC:               ,   1494.
-Df Model:        ,     7          ,                     ,        
+Dep. Variable:   ,iOS             ,  R-squared:         ,   0.596
+Model:           ,OLS             ,  Adj. R-squared:    ,   0.586
+Method:          ,Least Squares   ,  F-statistic:       ,   59.48
+Date:            ,Mon, 19 Dec 2022,  Prob (F-statistic):,7.14e-38
+Time:            ,13:46:49        ,  Log-Likelihood:    , -760.50
+No. Observations:,   208          ,  AIC:               ,   1533.
+Df Residuals:    ,   202          ,  BIC:               ,   1553.
+Df Model:        ,     5          ,                     ,        
 Covariance Type: ,nonrobust       ,                     ,        
              ,   coef   , std err ,    t    ,P>|t| ,  [0.025 ,  0.975] 
-Intercept    ,  -23.0769,    4.698,   -4.912, 0.000,  -32.340,  -13.813
-percapita_log,    8.8279,    1.316,    6.709, 0.000,    6.233,   11.423
-OSX          ,    0.7198,    0.093,    7.746, 0.000,    0.537,    0.903
-store        ,    6.6776,    1.915,    3.488, 0.001,    2.902,   10.453
-island       ,    1.9952,    1.331,    1.499, 0.135,   -0.629,    4.619
-LangCount    ,   -0.2616,    0.384,   -0.681, 0.496,   -1.019,    0.496
-EthnicCount  ,   -0.0882,    0.349,   -0.253, 0.801,   -0.776,    0.600
-ReliCount    ,   -0.9834,    0.422,   -2.329, 0.021,   -1.816,   -0.151
-Omnibus:      ,16.884,  Durbin-Watson:     ,   1.974
-Prob(Omnibus):, 0.000,  Jarque-Bera (JB):  ,  19.089
-Skew:         , 0.639,  Prob(JB):          ,7.16e-05
-Kurtosis:     , 3.756,  Cond. No.          ,    156.
+Intercept    ,  -44.8230,    4.712,   -9.513, 0.000,  -54.114,  -35.532
+percapita_log,   17.0378,    1.098,   15.522, 0.000,   14.873,   19.202
+island       ,    3.2120,    1.498,    2.143, 0.033,    0.257,    6.167
+LangCount    ,   -0.6233,    0.446,   -1.397, 0.164,   -1.503,    0.256
+EthnicCount  ,    0.3606,    0.398,    0.907, 0.366,   -0.424,    1.145
+ReliCount    ,   -0.6940,    0.495,   -1.403, 0.162,   -1.669,    0.281
+Omnibus:      ,19.244,  Durbin-Watson:     ,   1.966
+Prob(Omnibus):, 0.000,  Jarque-Bera (JB):  ,  22.073
+Skew:         , 0.708,  Prob(JB):          ,1.61e-05
+Kurtosis:     , 3.737,  Cond. No.          ,    43.1
 
 Notes:
 [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
