@@ -1,24 +1,22 @@
                       OLS Regression Results                     
-Dep. Variable:   ,share_square    ,  R-squared:         ,   0.293
-Model:           ,OLS             ,  Adj. R-squared:    ,   0.276
-Method:          ,Least Squares   ,  F-statistic:       ,   16.78
-Date:            ,Mon, 19 Dec 2022,  Prob (F-statistic):,7.48e-14
-Time:            ,13:48:35        ,  Log-Likelihood:    , -931.62
-No. Observations:,   208          ,  AIC:               ,   1875.
-Df Residuals:    ,   202          ,  BIC:               ,   1895.
-Df Model:        ,     5          ,                     ,        
+Dep. Variable:   ,share_square    ,  R-squared:         ,   0.302
+Model:           ,OLS             ,  Adj. R-squared:    ,   0.292
+Method:          ,Least Squares   ,  F-statistic:       ,   29.44
+Date:            ,Wed, 21 Dec 2022,  Prob (F-statistic):,7.35e-16
+Time:            ,01:30:42        ,  Log-Likelihood:    , -930.33
+No. Observations:,   208          ,  AIC:               ,   1869.
+Df Residuals:    ,   204          ,  BIC:               ,   1882.
+Df Model:        ,     3          ,                     ,        
 Covariance Type: ,nonrobust       ,                     ,        
              ,   coef   , std err ,    t    ,P>|t| ,  [0.025 ,  0.975] 
-Intercept    ,  152.0729,   10.728,   14.176, 0.000,  130.921,  173.225
-percapita_log,  -19.9528,    2.499,   -7.984, 0.000,  -24.880,  -15.025
-island       ,   -5.9692,    3.412,   -1.750, 0.082,  -12.696,    0.758
-LangCount    ,    1.1858,    1.015,    1.168, 0.244,   -0.816,    3.188
-EthnicCount  ,   -1.1421,    0.905,   -1.261, 0.209,   -2.928,    0.643
-ReliCount    ,    1.9130,    1.126,    1.699, 0.091,   -0.308,    4.134
-Omnibus:      ,20.484,  Durbin-Watson:     ,   2.008
-Prob(Omnibus):, 0.000,  Jarque-Bera (JB):  ,  23.564
-Skew:         ,-0.753,  Prob(JB):          ,7.64e-06
-Kurtosis:     , 3.669,  Cond. No.          ,    43.1
+Intercept    ,  146.6403,    9.672,   15.162, 0.000,  127.571,  165.710
+percapita_log,  -17.1843,    2.614,   -6.574, 0.000,  -22.338,  -12.030
+island       ,   -5.7589,    3.317,   -1.736, 0.084,  -12.299,    0.781
+store        ,  -13.1296,    5.009,   -2.621, 0.009,  -23.006,   -3.254
+Omnibus:      ,18.259,  Durbin-Watson:     ,   2.033
+Prob(Omnibus):, 0.000,  Jarque-Bera (JB):  ,  20.510
+Skew:         ,-0.698,  Prob(JB):          ,3.52e-05
+Kurtosis:     , 3.646,  Cond. No.          ,    27.7
 
 Notes:
 [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
